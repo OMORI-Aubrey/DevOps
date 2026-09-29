@@ -27,7 +27,7 @@ tar -czf "$BACKUP_DIR/$FILENAME" "$SOURCE_DIR"
 # 4) 결과 확인
 if [ $? -eq 0 ]; then
   SIZE=$(du -sh "$BACKUP_DIR/$FILENAME" | cut -f1)
-  echo "백업 완료! (파일: $FILENAME, 크기: $SIZE)"
+  echo "[$(date +%H:%M:%S)] 백업 완료! (파일: $FILENAME, 크기: $SIZE)"
 else
   echo "백업 실패"
   exit 1
