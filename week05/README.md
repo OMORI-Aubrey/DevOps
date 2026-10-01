@@ -17,3 +17,17 @@ docker stop web
 docker rm -f web 
 docker run --rm -v "$PWD:/app" -w /app python:3.12-slim python test.py
 ```
+
+## 혼자서 해보기 - curl 결과
+
+```bash
+$ curl http://localhost:8091
+<h1>Welcome to nginx1</h1>
+
+$ curl http://localhost:8092
+<h1>Welcome to nginx2</h1>
+
+$ curl http://localhost:8093
+<h1>Welcome to nginx3</h1>
+
+```
