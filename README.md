@@ -22,6 +22,6 @@
 
 ## 실습 애플리케이션
 - [guestbook](./guestbook/) - 6주차부터 계속 업데이트하는 방명록 앱 (Flask + Redis)
-  - 6주차: Dockerfile로 이미지화 (`git tag week06`)
-  - 7주차: compose.yaml, nginx.conf 추가 (`git tag week07`)
-  - 9주차: 쿠버네티스(minikube)에서 실행, 코드 변경 없음 (`git tag week09`)
+  - 6주차: Dockerfile로 이미지화
+  - 7주차: compose.yaml, nginx.conf 추가
+  - 9주차: 쿠버네티스(minikube)에서 실행, 코드 변경 없음
