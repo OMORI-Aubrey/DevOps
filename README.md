@@ -17,8 +17,11 @@
 | 5주차 | 05. 도커 w/ GitHub Issue | 컨테이너 개념, docker 명령어, Issue → Branch → PR → Merge | [week05](./week05/) |
 | 6주차 | 06. 도커파일 | Dockerfile, 레이어 캐시, ghcr.io 이미지 공유 | [week06](./week06/) |
 | 7주차 | 07. 도커 컴포즈 | compose, 볼륨, healthcheck, nginx + scale | [week07](./week07/) |
+| 8주차 | - | 중간고사 | - |
+| 9주차 | 08. 쿠버네티스 | 오케스트레이션, 선언형, Pod/Deployment 자가 치유, 방명록 이미지 배포 | [week09](./week09/) |
 
 ## 실습 애플리케이션
 - [guestbook](./guestbook/) - 6주차부터 계속 업데이트하는 방명록 앱 (Flask + Redis)
   - 6주차: Dockerfile로 이미지화 (`git tag week06`)
   - 7주차: compose.yaml, nginx.conf 추가 (`git tag week07`)
+  - 9주차: 쿠버네티스(minikube)에서 실행, 코드 변경 없음 (`git tag week09`)
