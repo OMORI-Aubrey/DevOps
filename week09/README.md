@@ -132,9 +132,12 @@ $ kubectl delete deployment mynginx
 $ kubectl create deployment guestbook --image=ghcr.io/omori-aubrey/guestbook:v1
 $ kubectl get pods
 $ kubectl port-forward deployment/guestbook 8080:5000
-$ curl -s http://localhost:8080 | grep -i "pod/host"     # 다른 터미널
-guestbook-8657488dfc-qsbz9
 ```
+
+브라우저에서 `http://localhost:8080` 접속 결과 (Pod/Host 배지에 Pod 이름 표시)
+
+![쿠버네티스에서 실행한 방명록](images/guestbook-k8s.png)
+
 
 Pod를 삭제하면 새 Pod는 자동 생성되지만 port-forward 연결은 끊기고, 저장소가 Memory라 방명록 데이터도 사라진다. (안정적인 접속 경로는 다음 주 Service)
 
@@ -157,6 +160,7 @@ $ minikube stop
 | 파일 | 설명 |
 |---|---|
 | week09/README.md | 9주차 실습 기록 (이번 주는 guestbook 코드 변경 없음) |
+| week09/images/guestbook-k8s.png | 쿠버네티스에서 실행한 방명록 브라우저 화면 |
 
 ## 느낀 점
 
