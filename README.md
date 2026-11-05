@@ -19,9 +19,11 @@
 | 7주차 | 07. 도커 컴포즈 | compose, 볼륨, healthcheck, nginx + scale | [week07](./week07/) |
 | 8주차 | - | 중간고사 | - |
 | 9주차 | 08. 쿠버네티스 | 오케스트레이션, 선언형, Pod/Deployment 자가 치유, 방명록 이미지 배포 | [week09](./week09/) |
+| 10주차 | 09. 쿠버네티스 배포와 서비스 / 10. 왜 굳이 | YAML 배포(apply), Service, 스케일링, 롤링 업데이트, 롤백, 도구별 해결 문제 | [week10](./week10/) |
 
 ## 실습 애플리케이션
 - [guestbook](./guestbook/) - 6주차부터 계속 업데이트하는 방명록 앱 (Flask + Redis)
   - 6주차: Dockerfile로 이미지화
   - 7주차: compose.yaml, nginx.conf 추가
   - 9주차: 쿠버네티스(minikube)에서 실행, 코드 변경 없음
+  - 10주차: k8s/deployment.yaml, service.yaml 추가, v2 이미지
