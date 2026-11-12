@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: ghcr.io/omori-aubrey/inhatc-devops-guestbook:v1
+          image: ghcr.io/omori-aubrey/guestbook:v1
           ports:
             - containerPort: 5000
           envFrom:
