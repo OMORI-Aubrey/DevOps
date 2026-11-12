@@ -1,4 +1,6 @@
 week04/backups
 week04/restore-check/
+guestbook/k8s/secret.yaml
+
 *:Zone.Identifier
 .env
