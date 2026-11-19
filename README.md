@@ -21,6 +21,7 @@
 | 9주차 | 08. 쿠버네티스 | 오케스트레이션, 선언형, Pod/Deployment 자가 치유, 방명록 이미지 배포 | [week09](./week09/) |
 | 10주차 | 09. 쿠버네티스 배포와 서비스 / 10. 왜 굳이 | YAML 배포(apply), Service, 스케일링, 롤링 업데이트, 롤백, 도구별 해결 문제 | [week10](./week10/) |
 | 11주차 | 11. 쿠버네티스 설정과 상태 점검 | ConfigMap/Secret(base64), Redis 연결, requests/limits, liveness/readiness probe, 트러블슈팅 루틴 | [week11](./week11/) |
+| 12주차 | 12. 깃허브 액션 | CI/CD, workflow 구조, 린트·테스트·빌드·ghcr.io 자동 푸시, 빨간X → 초록✓, 브랜치 보호 | [week12](./week12/) |
 
 ## 실습 애플리케이션
 - [guestbook](./guestbook/) - 6주차부터 계속 업데이트하는 방명록 앱 (Flask + Redis)
@@ -29,3 +30,5 @@
   - 9주차: 쿠버네티스(minikube)에서 실행, 코드 변경 없음
   - 10주차: k8s/deployment.yaml, service.yaml 추가, v2 이미지
   - 11주차: k8s/configmap.yaml, redis.yaml, secret.yaml.example 추가, deployment.yaml에 envFrom·resources·probe 추가
+  - 12주차: tests/test_app.py 추가, GitHub Actions(.github/workflows/build.yml)로 이미지 자동 빌드·푸시
+
