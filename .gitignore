@@ -2,5 +2,8 @@ week04/backups
 week04/restore-check/
 guestbook/k8s/secret.yaml
 
+__pycache__/
+*.pyc
+
 *:Zone.Identifier
 .env
