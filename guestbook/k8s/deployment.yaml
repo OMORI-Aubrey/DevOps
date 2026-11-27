@@ -11,6 +11,8 @@ spec:
     metadata:
       labels:
         app: guestbook
+      annotations:
+        config-version: "2"
     spec:
       containers:
         - name: web
