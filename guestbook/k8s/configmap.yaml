@@ -7,3 +7,4 @@ data:
   THEME_COLOR: "#D8BFD8"
   REDIS_HOST: "redis"
   REDIS_PORT: "6379"
+  PORT: "8000"

@@ -18,7 +18,7 @@ spec:
         - name: web
           image: ghcr.io/omori-aubrey/guestbook:0b07a7d
           ports:
-            - containerPort: 5000
+            - containerPort: 8000
           envFrom:
             - configMapRef:
                 name: guestbook-config
