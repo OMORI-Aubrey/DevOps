@@ -18,6 +18,7 @@ spec:
         - name: web
           image: ghcr.io/omori-aubrey/guestbook:0b07a7d
           ports:
+            - name: http
             - containerPort: 8000
           envFrom:
             - configMapRef:
@@ -34,13 +35,13 @@ spec:
           livenessProbe:
             httpGet:
               path: /healthz
-              port: 5000
+              port: http
             initialDelaySeconds: 5
             periodSeconds: 10
             failureThreshold: 3
           readinessProbe:
             httpGet:
               path: /readyz
-              port: 5000
+              port: http
             initialDelaySeconds: 3
             periodSeconds: 5
