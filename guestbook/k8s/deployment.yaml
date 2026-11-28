@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: ghcr.io/omori-aubrey/guestbook:0b07a7d
+          image: ghcr.io/omori-aubrey/guestbook:dece634
           ports:
             - name: http
               containerPort: 8000
